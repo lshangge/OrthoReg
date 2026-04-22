@@ -170,7 +170,7 @@ python src/eval_task_negation.py \
 
 We release fine-tuned checkpoints for ViT-B-32, ViT-B-16, and ViT-L-14 on all 8 tasks, covering all 6 modes.
 
-> 📥 **Checkpoint Download:** `https://huggingface.co/gezi2333/OrthoReg_checkpoints`
+> 📥 **Checkpoint Download:** `https://huggingface.co/RL-MIND/OrthoReg_checkpoints`
 
 Unzip into `OrthoReg/checkpoints_{seed}/` and pass the corresponding `--seed`, `--lr`, and `--ortho-lambda` to the eval scripts to reproduce the paper's results directly.
 
